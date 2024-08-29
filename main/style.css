@@ -6,7 +6,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: red;
+  font-size: large;
 }
 
 .formContainer {
@@ -22,6 +22,43 @@ form {
   flex-direction: column;
   padding: 20px;
   border: 1px solid #ccc; /* Optional: Just for styling */
-  background-color: white; /* Optional: Background color */
-  border-radius: 5px; 
+  background-color: rgba(184, 179, 179, 0.123); /* Optional: Background color */
+  border-radius: 5px;
+  justify-content: space-between;
+  height: 390px;
+  width: 400px;
+}
+
+input {
+  padding-left: 20px !important;
+}
+
+input,
+button {
+  padding: 7px;
+}
+.loginBtn {
+  background-color: #9b59b6;
+  color: white;
+  font-size: large;
+}
+
+.orSpan {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #9b59b6,
+    white 50%,
+    white 50%,
+    #9b59b6
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 center;
+}
+
+.sign_upBtn,
+.sin_upAppleBtn {
+  background-color: white;
+  font-size: medium;
 }
