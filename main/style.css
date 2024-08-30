@@ -62,7 +62,32 @@ button {
   background-position: 0 center;
 }
 
-.sign_upBtn,
+.sin_up_GOOGLE_Btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white !important;
+  color: black !important;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.sin_up_GOOGLE_Btn img {
+  background-color: white !important;
+  width: 10%;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
 .sin_upAppleBtn {
   background-color: white;
   font-size: medium;
