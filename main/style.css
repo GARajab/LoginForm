@@ -46,6 +46,7 @@ button {
   background-color: #9b59b6;
   color: white;
   font-size: large;
+  height: 52px;
 }
 
 .orSpan {
@@ -65,7 +66,6 @@ button {
 .sin_up_GOOGLE_Btn{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   background-color: white !important;
   color: black !important;
@@ -84,8 +84,13 @@ button {
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
-  margin-left: -50px;
-  margin-right: -50px;
+  margin-left: ;
+}
+
+.sin_up_GOOGLE_Btn_text{
+  width: 80%;
+  display: flex;
+justify-content: space-around;
 }
 
 .sin_upAppleBtn {
